@@ -1,4 +1,5 @@
-set PATH $PATH ~/bin
+set -x PATH $PATH $HOME/bin
 
-# Source RVM
-rvm list > /dev/null
+# Source rvm script and environment variables
+rvm -v > /dev/null
+
